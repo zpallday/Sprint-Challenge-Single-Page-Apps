@@ -9,6 +9,8 @@ export default function CharacterCard({ char }) {
         <Card.Header>{char.name}</Card.Header> 
         <Card.Meta>{char.species}</Card.Meta> 
         <Card.Description>{char.location.name}</Card.Description> 
+        <Card.Description>{char.url}</Card.Description>
+        <Card.Description>{char.created}</Card.Description>
         </Card.Content> 
         <Card.Content extra> 
         <a> 
